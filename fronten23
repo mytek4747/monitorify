@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Board Admin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Menu Board Admin</h1>
+    </header>
+
+    <section id="monitors">
+        <h2>Monitors</h2>
+        <ul id="monitorList">
+            <!-- Monitor list items will be dynamically added using JavaScript -->
+        </ul>
+    </section>
+
+    <section id="images">
+        <h2>Images</h2>
+        <form id="uploadImageForm" enctype="multipart/form-data">
+            <input type="file" id="imageFile" accept="image/*">
+            <button type="submit">Upload Image</button>
+        </form>
+        <ul id="imageList">
+            <!-- Image list items will be dynamically added using JavaScript -->
+        </ul>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
